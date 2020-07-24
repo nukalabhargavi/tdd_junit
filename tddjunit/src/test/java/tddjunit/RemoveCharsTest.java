@@ -21,11 +21,11 @@ public class RemoveCharsTest {
 
 	@Test
 	public void test() {
-		assertEquals("BCD" ,removeA_s.remove("ABCD"));
+		assertEquals("FCD" ,removeA_s.remove("AFCD"));
 	}
 	@Test
 	public void test1() {
-		assertEquals("CD" ,removeA_s.remove("AACD"));
+		assertEquals("C" ,removeA_s.remove("AAC"));
 	}
 	@Test
 	public void test2() {
